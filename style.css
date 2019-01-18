@@ -1,3 +1,23 @@
-body {
-  background-color: blue;
+#tableContainer, #formContainer{
+  border: 3px solid blue;
+  border-radius: 15px;
+}
+
+.tableTitle {
+  background-color: grey;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+form {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#formContainer {
+  margin-top: 10px;;
+}
+
+#submitButton {
+  margin: 15px;
 }
